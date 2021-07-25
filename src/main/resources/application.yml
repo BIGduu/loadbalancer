@@ -1,0 +1,16 @@
+server:
+  port: 3003
+spring:
+  application:
+    name: loadbalancer
+  jmx:
+    default-domain: 111
+    enabled: false
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      defaultZone: http://localhost:3000/eureka
